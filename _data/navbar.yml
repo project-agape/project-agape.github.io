@@ -4,11 +4,11 @@
 
 - id: 2
   name: PEOPLE
-  url: countdown
+  url: people
 
 - id: 3
   name: VENUE
-  url: ourstory
+  url: venue
 
 - id: 4
   image: /img/brand-logo.png
@@ -16,13 +16,13 @@
 
 - id: 5
   name: GALLERY
-  url: people
+  url: gallery
 
 - id: 6
   name: RSVP
-  url: venue
+  url: gallery
 
 - id: 7
   name: Gift
-  url: rsvp
+  url: gallery
 

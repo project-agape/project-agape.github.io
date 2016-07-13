@@ -4,7 +4,7 @@ main.init = function(){
     main.onNavbarScroll();
     main.onIconTransition();
     main.initCountDown();
-    // main.onMenuClick();
+    main.onMenuClick();
     main.onClickBrandLogo();
     main.onClickIntroButton();
 
