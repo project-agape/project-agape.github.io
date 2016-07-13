@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04c81bbd-7610-4af2-b785-d1550c0fa99f" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/asset/church.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/asset/map-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/asset/marriage-ring.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/brand-logo2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/download.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/home/venue.html" afterPath="$PROJECT_DIR$/_includes/home/venue.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_config.yml" afterPath="$PROJECT_DIR$/_config.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/home.sass" afterPath="$PROJECT_DIR$/_sass/home.sass" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
@@ -28,11 +33,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="home.sass" pinned="false" current-in-tab="true">
+      <file leaf-file-name="home.sass" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_sass/home.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="508">
-              <caret line="279" column="23" selection-start-line="279" selection-start-column="23" selection-end-line="279" selection-end-column="23" />
+            <state relative-caret-position="493">
+              <caret line="305" column="19" selection-start-line="305" selection-start-column="19" selection-end-line="305" selection-end-column="19" />
               <folding>
                 <element signature="e#2942#3099#1" expanded="true" />
               </folding>
@@ -40,12 +45,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="venue.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_includes/home/venue.html">
+      <file leaf-file-name="gallery.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_includes/home/gallery.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="53" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
-              <folding />
+            <state relative-caret-position="105">
+              <caret line="7" column="51" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -73,8 +80,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+            <state relative-caret-position="375">
+              <caret line="25" column="27" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -100,15 +107,16 @@
         <option value="$PROJECT_DIR$/js/jquery.final-countdown.js" />
         <option value="$PROJECT_DIR$/_layouts/default.html" />
         <option value="$PROJECT_DIR$/js/home.js" />
-        <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/_includes/home/countdown.html" />
         <option value="$PROJECT_DIR$/_includes/home/our-story.html" />
         <option value="$PROJECT_DIR$/_data/groomsmen.yml" />
         <option value="$PROJECT_DIR$/_data/bridesmaid.yml" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/_includes/home/people.html" />
         <option value="$PROJECT_DIR$/_includes/home/venue.html" />
+        <option value="$PROJECT_DIR$/_config.yml" />
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/_sass/home.sass" />
+        <option value="$PROJECT_DIR$/_includes/home/gallery.html" />
       </list>
     </option>
   </component>
@@ -212,6 +220,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="asset" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gallery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crux-wedding.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crux-wedding.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="_includes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -260,16 +290,16 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="our&#9;FILE&#9;file:///Users/Rens/Documents/jekyll/crux-wedding.github.io/_includes/home/our-story.html&#10;kinet&#9;FILE&#9;file:///Users/Rens/Documents/jekyll/crux-wedding.github.io/js/kinetic-v5.1.0.js&#10;defa&#9;FILE&#9;file:///Users/Rens/Documents/jekyll/crux-wedding.github.io/_layouts/default.html&#10;footer&#9;FILE&#9;file:///Users/Rens/Documents/jekyll/crux-wedding.github.io/_includes/footer.html&#10;count&#9;FILE&#9;file:///Users/Rens/Documents/jekyll/crux-wedding.github.io/_includes/home/countdown.html&#10;cover&#9;FILE&#9;file:///Users/Rens/Documents/jekyll/crux-wedding.github.io/_includes/home/cover.html&#10;home.js&#9;FILE&#9;file:///Users/Rens/Documents/jekyll/crux-wedding.github.io/js/home.js&#10;home.sass&#9;FILE&#9;file:///Users/Rens/Documents/jekyll/crux-wedding.github.io/_sass/home.sass&#10;cerem&#9;FILE&#9;file:///Users/Rens/Documents/jekyll/crux-wedding.github.io/_includes/home/ceremony.html&#10;cover.&#9;FILE&#9;file:///Users/Rens/Documents/jekyll/crux-wedding.github.io/_includes/home/cover.html&#10;navbar&#9;FILE&#9;file:///Users/Rens/Documents/jekyll/crux-wedding.github.io/_includes/navbar.html&#10;home.j&#9;FILE&#9;file:///Users/Rens/Documents/jekyll/crux-wedding.github.io/js/home.js&#10;main.&#9;FILE&#9;file:///Users/Rens/Documents/jekyll/crux-wedding.github.io/_sass/main.sass&#10;cover.ht&#9;FILE&#9;file:///Users/Rens/Documents/jekyll/crux-wedding.github.io/_includes/home/cover.html&#10;navbar.html&#9;FILE&#9;file:///Users/Rens/Documents/jekyll/crux-wedding.github.io/_includes/navbar.html&#10;navbar.&#9;FILE&#9;file:///Users/Rens/Documents/jekyll/crux-wedding.github.io/_data/navbar.yml&#10;term&#9;ACTION&#9;ActivateTerminalToolWindow" />
+    <property name="SearchEverywhereHistoryKey" value="config&#9;FILE&#9;file:///Users/Rens/Documents/jekyll/crux-wedding.github.io/_config.yml&#10;our&#9;FILE&#9;file:///Users/Rens/Documents/jekyll/crux-wedding.github.io/_includes/home/our-story.html&#10;kinet&#9;FILE&#9;file:///Users/Rens/Documents/jekyll/crux-wedding.github.io/js/kinetic-v5.1.0.js&#10;defa&#9;FILE&#9;file:///Users/Rens/Documents/jekyll/crux-wedding.github.io/_layouts/default.html&#10;footer&#9;FILE&#9;file:///Users/Rens/Documents/jekyll/crux-wedding.github.io/_includes/footer.html&#10;count&#9;FILE&#9;file:///Users/Rens/Documents/jekyll/crux-wedding.github.io/_includes/home/countdown.html&#10;cover&#9;FILE&#9;file:///Users/Rens/Documents/jekyll/crux-wedding.github.io/_includes/home/cover.html&#10;home.js&#9;FILE&#9;file:///Users/Rens/Documents/jekyll/crux-wedding.github.io/js/home.js&#10;home.sass&#9;FILE&#9;file:///Users/Rens/Documents/jekyll/crux-wedding.github.io/_sass/home.sass&#10;cerem&#9;FILE&#9;file:///Users/Rens/Documents/jekyll/crux-wedding.github.io/_includes/home/ceremony.html&#10;cover.&#9;FILE&#9;file:///Users/Rens/Documents/jekyll/crux-wedding.github.io/_includes/home/cover.html&#10;navbar&#9;FILE&#9;file:///Users/Rens/Documents/jekyll/crux-wedding.github.io/_includes/navbar.html&#10;home.j&#9;FILE&#9;file:///Users/Rens/Documents/jekyll/crux-wedding.github.io/js/home.js&#10;main.&#9;FILE&#9;file:///Users/Rens/Documents/jekyll/crux-wedding.github.io/_sass/main.sass&#10;cover.ht&#9;FILE&#9;file:///Users/Rens/Documents/jekyll/crux-wedding.github.io/_includes/home/cover.html&#10;navbar.html&#9;FILE&#9;file:///Users/Rens/Documents/jekyll/crux-wedding.github.io/_includes/navbar.html&#10;navbar.&#9;FILE&#9;file:///Users/Rens/Documents/jekyll/crux-wedding.github.io/_data/navbar.yml&#10;term&#9;ACTION&#9;ActivateTerminalToolWindow" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/img/asset/gallery" />
       <recent name="$PROJECT_DIR$/js" />
       <recent name="$PROJECT_DIR$/img/asset" />
       <recent name="$PROJECT_DIR$/img" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/css" />
     </key>
   </component>
   <component name="RunManager">
@@ -473,12 +503,12 @@
       <option name="presentableId" value="Default" />
       <updated>1468382231606</updated>
       <workItem from="1468382237762" duration="20294000" />
-      <workItem from="1468409348801" duration="6948000" />
+      <workItem from="1468409348801" duration="9234000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27242000" />
+    <option name="totallyTimeSpent" value="29528000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="23" width="1920" height="1057" extended-state="6" />
@@ -646,6 +676,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -685,34 +716,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/home.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_includes/home/countdown.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="37" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_data/navbar.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
           <folding />
         </state>
       </provider>
@@ -741,14 +748,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_includes/home/people.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -757,20 +756,75 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/img/download.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_data/gallery.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_data/navbar.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="27" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_includes/home/venue.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="53" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="574">
+          <caret line="57" column="20" selection-start-line="57" selection-start-column="20" selection-end-line="57" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_sass/home.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="508">
-          <caret line="279" column="23" selection-start-line="279" selection-start-column="23" selection-end-line="279" selection-end-column="23" />
+        <state relative-caret-position="493">
+          <caret line="305" column="19" selection-start-line="305" selection-start-column="19" selection-end-line="305" selection-end-column="19" />
           <folding>
             <element signature="e#2942#3099#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/home/gallery.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="51" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
