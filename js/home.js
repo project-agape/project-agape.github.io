@@ -112,9 +112,9 @@ main.onIconTransition = function() {
 }
 
 main.initCountDown = function(){
-    $('.countdown').final_countdown({
-        start: new Date("July 29, 2016 12:41:00").getTime() / 1000,
-        end: new Date("December 22, 2016 2:00:00").getTime() / 1000,
+    $('.right-section').final_countdown({
+        start: new Date("July 14, 2016 12:00:00").getTime() / 1000,
+        end: new Date("September 22, 2016 2:00:00").getTime() / 1000,
         now: new Date().getTime() / 1000,
         seconds: {
             borderColor: 'white',
