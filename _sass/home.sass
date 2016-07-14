@@ -174,8 +174,15 @@ body
       background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url('/img/asset/countdown-image.jpg')
       background-repeat: no-repeat
       background-position: center center
+      height: 400px
       .section-caption
-        padding: 93px 0
+        position: relative
+        top: 50%
+        transform: translateY(-50%)
+        -webkit-transform: translateY(-50%)
+        -moz-transform: translateY(-50%)
+        -o-transform: translateY(-50%)
+        -ms-transform: translateY(-50%)
         .content-text
           display: block
           color: white
@@ -190,31 +197,22 @@ body
           width: 250px
           margin: 20px auto
           border-top: 5px solid #ef5350
-
     .right-section
       position: relative
       float: left
       width: 60%
-      .section-header
-        color: white
-        font-family: 'Montserrat'
-        text-transform: uppercase
-        font-weight: normal
-        font-style: normal
-        font-size: 2em
-        margin-bottom: 20px
-        &:before
-          margin: 0 auto
-          text-align: center
-          content: ""
-          height: 2px
-          width: 200px
-          display: block
-          position: relative
-          bottom: -70px
-          background-color: #ddd
-      .clock
-        padding: 119px 0
+      height: 400px
+      .content-container
+        position: relative
+        top: 50%
+        transform: translateY(-50%)
+        -webkit-transform: translateY(-50%)
+        -moz-transform: translateY(-50%)
+        -o-transform: translateY(-50%)
+        -ms-transform: translateY(-50%)
+        max-width: 80%
+        margin-left: auto
+        margin-right: auto
         .clock-item
           .wrap
             .inner
@@ -364,8 +362,12 @@ body
         a
           display: block
 
+@media (min-width: 1441px)
+  #cover
+    .intro-text-container
+      padding-top: 350px
 
-@media (max-width: 1441px)
+@media (max-width: 1440px)
   #cover
     .intro-text-container
       padding-top: 300px
@@ -375,44 +377,55 @@ body
     .intro-text-container
       padding-top: 210px
       .intro-text
-        font-size: 50px
+        font-size: 36px
+        top: -20px
       .intro-header
-        .left-section
-          .couple-name
-            display: table
-            font-size: 65px
-            float: none
-            text-align: center
-            width: fit-content
-            margin-left: auto
-            margin-right: auto
-        .right-section
-          .couple-name
-            display: table
-            font-size: 65px
-            float: none
-            text-align: center
-            width: fit-content
-            margin-left: auto
-            margin-right: auto
+        .intro-text-caption
+          padding: 5px 20px
+          .left-section
+            .couple-name
+              display: table
+              font-size: 58px
+              float: none
+              text-align: center
+              width: fit-content
+              margin-left: auto
+              margin-right: auto
+          .right-section
+            .couple-name
+              display: table
+              font-size: 58px
+              float: none
+              text-align: center
+              width: fit-content
+              margin-left: auto
+              margin-right: auto
         .intro-place
           display: table
           margin: 0 auto
-          padding: 15px 0
-          font-size: 27px
+          padding: 15px 0 5px
+          font-size: 22px
         .intro-date
           font-size: 16px
-  #ceremony
-    .couple-info-section
-      .common-border
-        .bride-section
-          p
-            padding-left: 20px
-            padding-right: 20px
-      .groom-section
+        .intro-button
+          font-size: 14px
+          padding: 0px 40px
+
+  #our-story
+    .section-container
+      .content-container
         p
-          padding-left: 20px
-          padding-right: 20px
+          max-width: 70%
+      &.left-section
+        padding: 190px 0
+    #countdown
+      .left-section
+        .section-caption
+          .content-header
+            font-size: 36px
+      .right-section
+        .content-container
+          max-width: 100%
 
 @media (max-width: $screen-sm-max)
   #cover
