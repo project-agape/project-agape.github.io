@@ -69,6 +69,22 @@ nav
             padding-bottom: 15px
             border-bottom: 2px solid transparent
 
+footer
+  position: relative
+  background-color: #222222
+  .footer-content
+    padding: 15px 0
+    h4
+      color: #bbb
+      text-transform: uppercase
+      letter-spacing: 0px
+      font-weight: normal
+      font-style: normal
+      span
+        color: #ff5252
+    h5
+      color: #bbb
+
 @media (max-width: $screen-lg)
   nav
     position: relative
@@ -176,21 +192,15 @@ nav
         span
           background: white
 
+@media (max-width: 568px)
+  footer
+    .footer-content
+      h4
+        font-size: 14px
+      h5
+        font-size: 10px
 
-footer
-  position: relative
-  background-color: #222222
-  .footer-content
-    padding: 15px 0
-    h4
-      color: #bbb
-      text-transform: uppercase
-      letter-spacing: 0px
-      font-weight: normal
-      font-style: normal
-      span
-        color: #ff5252
-    h5
-      color: #bbb
+
+
 
 
