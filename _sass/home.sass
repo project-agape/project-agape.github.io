@@ -429,37 +429,34 @@ body
 
 @media (max-width: $screen-sm-max)
   #cover
-    .intro-text-container
-      padding-top: 300px
+    .container-fluid
+      height: inherit
+      .intro-text-container
+        padding: 0px
+        position: relative
+        top: 50%
+        transform: translateY(-50%)
+        -webkit-transform: translateY(-50%)
+        -moz-transform: translateY(-50%)
+        -o-transform: translateY(-50%)
+        -ms-transform: translateY(-50%)
 
-  #ceremony
-    .couple-info-section
-      .groom-section
-        margin-bottom: 120px
-    .venue-container
-      margin-top: 0
-      margin-bottom: 80px
-      .venue
-        h2
-          padding-left: 0
-  #ourstory
-    .timeline-section
-      &:before
-        display: none
-      .timeline-block
-        .timeline-img
-          position: relative
-          display: table
-          margin: 0 auto
-          top: 0
-          left: 0
-          right: 0
-        .timeline-content
-          text-align: center
-          width: 90%
-          margin: 0 auto
-          float: none !important
-          
+  #our-story
+    .section-container
+      &.left-section
+        padding: 60px 0 20px
+        .content-container
+          padding: 20px 0
+      &.right-section
+        padding: 20px 0 80px
+    #countdown
+      .left-section
+        width: 100%
+      .right-section
+        width: 100%
+        .content-container
+          max-width: 90%
+
   #people
     .common-border
       .groomsmen
@@ -497,33 +494,24 @@ body
         padding-top: 20px
         padding-bottom: 20px
 
+
 @media (max-width: $screen-xs-max)
-  #cover
-    .intro-text-container
-      padding-top: 190px
-    .bottom-style
-      &:before
-        border-width: 90px 0 0px 320px
-      &:after
-        border-width: 90px 320px 0px 0
+  #our-story
+    #countdown
+      .right-section
+        height: auto
+        padding: 40px 0
+        .content-container
+          max-width: 25%
+          top: 0
+          transform: none
+          -webkit-transform: none
+          -ms-transform: none
+          -o-transform: none
+          -ms-transform: none
+          .clock-item
+            padding: 15px 0
 
-
-  #ceremony
-    .venue-container
-      .venue
-        padding: 10px 0
-        
-  #people
-    .common-border
-      .testimonial
-        margin-top: 10px
-
-  #ourstory
-    .quote-ribbon
-      &:before
-        left: 0
-      &:after
-        right: 0
 
   #venue
     #venue-image-container
