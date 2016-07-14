@@ -20,9 +20,9 @@
 
 - id: 6
   name: RSVP
-  url: gallery
+  url: rsvp
 
 - id: 7
   name: Gift
-  url: gallery
+  url: gift-registration
 
