@@ -29,115 +29,116 @@ body
   background-size: cover
   background-position: center center
   height: 100vh
-  .bg-overlay
-    position: absolute
-    width: 100%
-    height: 100%
-    background-color: rgba(0,0,0,0.5)
-  .intro-text-container
-    position: relative
-    padding-top: 260px
-    padding-bottom: 100px
-    left: 0
-    right: 0
-    margin-left: auto
-    margin-right: auto
-    .intro-text
+  .container-fluid
+    .bg-overlay
+      position: absolute
+      width: 100%
+      height: 100%
+      background-color: rgba(0,0,0,0.5)
+    .intro-text-container
       position: relative
-      top: -40px
-      font-size: 50px
-      text-align: center
-      color: white
-    .intro-header
-      margin-bottom: 50px
-      text-transform: uppercase
-      font-family: 'Montserrat','sans-serif'
-      font-size: 75px
-      font-weight: 700
-      line-height: 75px
-      .intro-text-caption
-        width: fit-content
-        margin: 0 auto
-        border-top: 5px solid white
-        border-bottom: 5px solid white
-        padding: 10px 20px
-        .left-section
-          display: inline-block
-          .couple-name
-            float: right
-            font-weight: normal
-            font-size: 75px
-            color: white
-        .middle-section
-          display: inline-block
-          vertical-align: top
-          .pulse
-            color: white
-            -webkit-animation: pulse 1s linear infinite
-            -moz-animation: pulse 1s linear infinite
-            -ms-animation: pulse 1s linear infinite
-            animation: pulse 1s linear infinite
-            &:before
-              content: "\f08a"
-        .right-section
-          display: inline-block
-          .couple-name
-            float: left
-            font-weight: normal
-            font-size: 75px
-            color: white
-      .intro-place
-        font-family: Montserrat
-        text-transform: uppercase
-        letter-spacing: 0px
-        font-weight: normal
-        font-style: normal
-        color: white
-        text-align: center
-        margin: 20px 0 15px
-        &:before
-          opacity: 0.8
-          content: ""
-          height: 6px
-          width: 120px
-          display: inline-block
-          position: relative
-          top: -5px
-          right: 20px
-          background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAJUlEQVQIW2NkQAP/////z4gsBhYAAZggTADEBwsiC4AF0QVAggAaRhQC3z7vXAAAAABJRU5ErkJggg==') repeat
-
-        &:after
-          opacity: 0.8
-          content: ""
-          height: 6px
-          width: 120px
-          display: inline-block
-          position: relative
-          top: -5px
-          left: 20px
-          background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAJUlEQVQIW2NkQAP/////z4gsBhYAAZggTADEBwsiC4AF0QVAggAaRhQC3z7vXAAAAABJRU5ErkJggg==') repeat
-      .intro-date
-        color: white
-        text-align: center
-        font-family: "Montserrat", "sans-serif"
-        font-size: 14px
-        font-weight: 400
+      padding-top: 260px
+      padding-bottom: 100px
+      left: 0
+      right: 0
+      margin-left: auto
+      margin-right: auto
+      .intro-text
         position: relative
-        top: -5px
-      .intro-button
-        background-color: #FF5252
+        top: -40px
+        font-size: 50px
+        text-align: center
         color: white
-        font-size: 16px
-        display: block
-        width: fit-content
-        padding: 0px 50px
-        margin: 40px auto
-        text-decoration: none
-        transition: all 0.3s ease
-        -webkit-transition: all 0.3s ease
-        -o-transition: all 0.3s ease
-        &:hover
-          background-color: #FF8A80
+      .intro-header
+        margin-bottom: 50px
+        text-transform: uppercase
+        font-family: 'Montserrat','sans-serif'
+        font-size: 75px
+        font-weight: 700
+        line-height: 75px
+        .intro-text-caption
+          width: fit-content
+          margin: 0 auto
+          border-top: 5px solid white
+          border-bottom: 5px solid white
+          padding: 10px 20px
+          .left-section
+            display: inline-block
+            .couple-name
+              float: right
+              font-weight: normal
+              font-size: 75px
+              color: white
+          .middle-section
+            display: inline-block
+            vertical-align: top
+            .pulse
+              color: white
+              -webkit-animation: pulse 1s linear infinite
+              -moz-animation: pulse 1s linear infinite
+              -ms-animation: pulse 1s linear infinite
+              animation: pulse 1s linear infinite
+              &:before
+                content: "\f08a"
+          .right-section
+            display: inline-block
+            .couple-name
+              float: left
+              font-weight: normal
+              font-size: 75px
+              color: white
+        .intro-place
+          font-family: Montserrat
+          text-transform: uppercase
+          letter-spacing: 0px
+          font-weight: normal
+          font-style: normal
+          color: white
+          text-align: center
+          margin: 20px 0 15px
+          &:before
+            opacity: 0.8
+            content: ""
+            height: 6px
+            width: 120px
+            display: inline-block
+            position: relative
+            top: -5px
+            right: 20px
+            background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAJUlEQVQIW2NkQAP/////z4gsBhYAAZggTADEBwsiC4AF0QVAggAaRhQC3z7vXAAAAABJRU5ErkJggg==') repeat
+
+          &:after
+            opacity: 0.8
+            content: ""
+            height: 6px
+            width: 120px
+            display: inline-block
+            position: relative
+            top: -5px
+            left: 20px
+            background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAJUlEQVQIW2NkQAP/////z4gsBhYAAZggTADEBwsiC4AF0QVAggAaRhQC3z7vXAAAAABJRU5ErkJggg==') repeat
+        .intro-date
+          color: white
+          text-align: center
+          font-family: "Montserrat", "sans-serif"
+          font-size: 14px
+          font-weight: 400
+          position: relative
+          top: -5px
+        .intro-button
+          background-color: #FF5252
+          color: white
+          font-size: 16px
+          display: block
+          width: fit-content
+          padding: 0px 50px
+          margin: 40px auto
+          text-decoration: none
+          transition: all 0.3s ease
+          -webkit-transition: all 0.3s ease
+          -o-transition: all 0.3s ease
+          &:hover
+            background-color: #FF8A80
 
 #our-story
   position: relative
@@ -364,52 +365,55 @@ body
 
 @media (min-width: 1441px)
   #cover
-    .intro-text-container
-      padding-top: 350px
+    .container-fluid
+      .intro-text-container
+        padding-top: 350px
 
 @media (max-width: 1440px)
   #cover
-    .intro-text-container
-      padding-top: 300px
+    .container-fluid
+      .intro-text-container
+        padding-top: 300px
 
 @media (max-width: $screen-md-max)
   #cover
-    .intro-text-container
-      padding-top: 210px
-      .intro-text
-        font-size: 36px
-        top: -20px
-      .intro-header
-        .intro-text-caption
-          padding: 5px 20px
-          .left-section
-            .couple-name
-              display: table
-              font-size: 58px
-              float: none
-              text-align: center
-              width: fit-content
-              margin-left: auto
-              margin-right: auto
-          .right-section
-            .couple-name
-              display: table
-              font-size: 58px
-              float: none
-              text-align: center
-              width: fit-content
-              margin-left: auto
-              margin-right: auto
-        .intro-place
-          display: table
-          margin: 0 auto
-          padding: 15px 0 5px
-          font-size: 22px
-        .intro-date
-          font-size: 16px
-        .intro-button
-          font-size: 14px
-          padding: 0px 40px
+    .container-fluid
+      .intro-text-container
+        padding-top: 210px
+        .intro-text
+          font-size: 36px
+          top: -20px
+        .intro-header
+          .intro-text-caption
+            padding: 5px 20px
+            .left-section
+              .couple-name
+                display: table
+                font-size: 58px
+                float: none
+                text-align: center
+                width: fit-content
+                margin-left: auto
+                margin-right: auto
+            .right-section
+              .couple-name
+                display: table
+                font-size: 58px
+                float: none
+                text-align: center
+                width: fit-content
+                margin-left: auto
+                margin-right: auto
+          .intro-place
+            display: table
+            margin: 0 auto
+            padding: 15px 0 5px
+            font-size: 22px
+          .intro-date
+            font-size: 16px
+          .intro-button
+            font-size: 14px
+            padding: 0px 40px
 
   #our-story
     .section-container
@@ -496,6 +500,9 @@ body
 
 
 @media (max-width: $screen-xs-max)
+  body
+    margin-top: 86px
+
   #our-story
     #countdown
       .right-section
@@ -512,79 +519,76 @@ body
           .clock-item
             padding: 15px 0
 
-
-  #venue
-    #venue-image-container
-      .venue-large
-        margin: 5px 0 0
-        height: 350px
-      .venue-small
-        margin: 5px 0
-
 @media (max-width: 568px)
   #cover
     height: auto
-    .intro-text-container
-      .intro-text
-        font-size: 42px
-      .intro-header
-        font-size: 50px
-        .left-section
-          .couple-name
-            font-size: 55px
-        .right-section
-          .couple-name
-            font-size: 55px
-        .intro-place
-          &:before
-            display: block
-            top: 0
-            right: 0
-            width: 250px
-          &:after
-            display: block
-            top: 0
-            left: 0
-            width: 250px
+    .container-fluid
+      .intro-text-container
+        top: 0
+        transform: none
+        -webkit-transform: none
+        -ms-transform: none
+        -o-transform: none
+        -ms-transform: none
+        padding: 100px 0
+        .intro-text
+          top: -10px
+          font-size: 26px
+          text-align: center
+        .intro-header
+          .intro-text-caption
+            .left-section
+              display: block
+              .couple-name
+                display: block
+                font-size: 48px
+            .middle-section
+              display: block
+              font-size: 48px
+            .right-section
+              display: block
+              .couple-name
+                font-size: 48px
+                display: block
+          .intro-place
+            font-size: 20px
+            &:before, &:after
+              display: none
 
-  #ceremony
-    .border-event-top
-      h2
-        padding-left: 0
-      h1
-        text-indent: 0
-        span
-          border-top: none
-    .section-quotes
-      .share-event
-        font-size: 1.5em
+  #our-story
+    .section-container
+      .content-container
+        .section-spacer
+          margin: 15px auto 30px
+        p
+          max-width: 80%
 
-@media (max-width: 568px)
-  #countdown
-    .countdown-container
-      .section-header
-        font-size: 1.3em
+    #countdown
+      .right-section
+        .content-container
+          max-width: 40%
 
-  #ourstory
-    .ribbon
-      padding: 0 25px
-    .quote-ribbon
-      font-size: 12px
-      margin: 20px 0 30px 0
-      &:before
-        width: 290px
-      &:after
-        width: 290px
-    .timeline-section
-      .timeline-block
-        .timeline-content
-          width: 100%
-          padding: 20px 
-          
-  #rsvp
-    .form-container
-      &:before
-        display: none
+  #people
+    .common-border
+      margin: 20px 0 20px
+      .testimonial
+        .content-container
+          .content-image
+            width: 100px
+            height: 100px
+          .content-name
+            font-size: 14px
+          .content-relation
+            font-size: 12px
+
+  #venue
+    .content-container
+      margin: 40px 0 60px
+
+  #gallery
+    .content-container
+      .gallery-item
+        width: 100%
 
 
 
