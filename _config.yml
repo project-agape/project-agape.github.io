@@ -56,9 +56,3 @@ gallery:
 
   - id: 8
     image: "gallery8.png"
-
-gdrive:
-  sheet: "RSVP test (Responses)"
-  cache_period: 2 seconds
-
-
