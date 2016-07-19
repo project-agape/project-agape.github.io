@@ -59,4 +59,6 @@ gallery:
 
 gdrive:
   sheet: "RSVP test (Responses)"
+  cache_period: 5 seconds
+
 
