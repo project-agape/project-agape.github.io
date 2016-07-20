@@ -11,18 +11,14 @@
   url: venue
 
 - id: 4
-  image: /img/brand-logo.png
-  url: /
-
-- id: 5
   name: GALLERY
   url: gallery
 
-- id: 6
+- id: 5
   name: RSVP
   url: rsvp
 
-- id: 7
+- id: 6
   name: Gift
   url: gift-registration
 

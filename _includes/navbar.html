@@ -15,17 +15,9 @@
         <div class="collapse navbar-collapse" id="navbar-right-collapse">
             <ul class="nav navbar-nav">
                 {% for navbarMenu in site.data.navbar %}
-                {% if navbarMenu.id != 4 %}
                 <li class="navbar-menu">
                     <a  class="menu" href="#{{ navbarMenu.url }}"> {{ navbarMenu.name | upcase }}</a>
                 </li>
-                {% else %}
-                <li class="navbar-brand-logo hidden-md hidden-sm hidden-xs hidden-xs">
-                    <a href="{{ navbarMenu.url }}">
-                        <img src="{{ navbarMenu.image }}" class="brand-logo"/>
-                    </a>
-                </li>
-                {% endif %}
                 {% endfor %}
             </ul>
         </div>
