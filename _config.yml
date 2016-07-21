@@ -56,3 +56,8 @@ gallery:
 
   - id: 8
     image: "gallery8.png"
+
+collections:
+  mock:
+    output: true
+    permalink: /wedding-design/:path/

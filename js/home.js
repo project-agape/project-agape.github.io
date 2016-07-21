@@ -64,8 +64,6 @@ main.onClickBrandLogo = function(){
 
 main.onMenuClick = function(){
     $(document).on("scroll", onScroll);
-
-    //smoothscroll
     $('.navbar-menu a[href^="#"]').on('click', function (e) {
         e.preventDefault();
         $(document).off("scroll");
