@@ -17,25 +17,21 @@
 </head>
 <body>
 
-{% include navbar.html %}
+
 {{ content }}
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel-2">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-body">
-        <h2 class="text-alert">You successfully submitted your response.</h2>
-      </div>
-    </div>
-  </div>
-</div>
-{% include footer.html %}
+
 
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
 <script type="text/javascript" src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
 <script type="text/javascript" src="/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="/js/jquery.final-countdown.min.js"></script>
-<script type="text/javascript" src="/js/kinetic-v5.1.0.js"></script>
-<script type="text/javascript" src="/js/home.js"></script>
+<script type="text/javascript">
+  $(document).ready(function(){
+
+    $('.item-container').hover(function () {
+      $(this).toggleClass("active");
+    });
+  });
+</script>
 
 </body>
 
