@@ -40,6 +40,8 @@ body
         max-width: 90%
         min-width: 90%
         margin: 0 auto
+        .content-header
+          margin: 0
         .content-description
           font-size: 16px
           line-height: 30px
@@ -108,7 +110,7 @@ body
           height: inherit
           &.style-2
             background-size: 50%
-            background-position: center bottom
+            background-position: center 50px
           &.style-3
             background-size: 90%
             background-position: center center
@@ -134,4 +136,56 @@ body
             background-color: white
             color: #555555
             padding: 20px 50px
+
+@media (max-width: $screen-md-max)
+  #cover
+    .top-section
+      .item-1
+        .content-container
+          .content-header
+            font-size: 28px
+
+@media (max-width: $screen-sm-max)
+  #cover
+    .top-section
+      .item-1
+        width: 100%
+      .item-container
+        &.item-2
+          width: 50%
+    .bottom-section
+      .item-container
+        &.item-3
+          width: 50%
+
+@media (max-width: 800px) and (orientation: landscape)
+  #cover
+    .top-section
+      height: 100vh
+    .bottom-section
+      height: 100vh
+
+@media (max-width: 568px)
+  #cover
+    .top-section
+      height: auto
+      .item-1
+        height: 100vh
+      .item-container
+        &.item-2
+          width: 100%
+          .item
+            padding: 200px 0
+            &.style-2
+              background-position: center center
+    .bottom-section
+      height: auto
+      .item-container
+        &.item-3
+          width: 100%
+        .item
+          padding: 200px 0
+          &.style-2
+            background-position: center center !important
+
 

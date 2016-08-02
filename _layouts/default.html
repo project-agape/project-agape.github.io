@@ -26,9 +26,14 @@
 <script type="text/javascript" src="/js/bootstrap.min.js"></script>
 <script type="text/javascript">
   $(document).ready(function(){
+    if($(window).innerWidth() > 768)
+      $('.item-container').hover(function () {
+        $(this).toggleClass("active");
+      });
 
-    $('.item-container').hover(function () {
-      $(this).toggleClass("active");
+    $(".item-container").on("click",function(){
+      var itemURL = $(this).find(".item").attr("data-url");
+      window.open(itemURL,'_blank');
     });
   });
 </script>
