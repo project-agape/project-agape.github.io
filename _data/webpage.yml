@@ -1,0 +1,47 @@
+- item-id: 2
+  url-id: 4
+  image: "1.png"
+  background-color: "c5f4e0"
+  style-id: 2
+
+- item-id: 2
+  url-id: 3
+  image: "2.png"
+  background-color: "fed0b8"
+  style-id: 3
+
+
+- item-id: 3
+  url-id: 5
+  image: "3.png"
+  background-color: "fefacd"
+  style-id: 3
+
+  
+
+- item-id: 3
+  url-id: 1
+  image: "4.png"
+  background-color: "ddc5e7"
+  style-id: 2
+
+  
+
+- item-id: 3
+  url-id: 6
+  image: "5.png"
+  background-color: "fdb3b4"
+  style-id: 3
+
+  
+
+- item-id: 3
+  url-id: 2
+  image: "6.png"
+  background-color: "bbc9d6"
+  style-id: 3
+
+
+
+
+
