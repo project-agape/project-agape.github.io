@@ -1,29 +1,31 @@
-
 <div class="container-fluid no-gutter">
-    <div class="bg-overlay"></div>
-    <div class="intro-text-container">
-        <h4 class="intro-text stylized">The Wedding Celebration of</h4>
-        <div class="intro-header">
-            <div class="container">
-                <div class="intro-text-caption">
-                    <div class="left-section">
-                        <span class="couple-name">JOHN</span>
-                    </div>
-                    <div class="middle-section">
-                        <div class="text-center">
-                            <i class="text-center pulse fa fa-heart-o"></i>
-                        </div>
-                    </div>
-                    <div class="right-section">
-                        <span class="couple-name">SARA</span>
-                    </div>
-                </div>
-                <div class="intro-details">
-                    <h3 class="intro-place">Palazzo Verde</h3>
-                    <h5 class="intro-date">22 May 2016</h5>
-                </div>
-                <a href="#our-story" class="text-center intro-button">Save The Date</a>
+    <div class="top-section">
+        <div class="item-1">
+            <div class="content-container">
+                <h1 class="content-header">Need A wedding website?</h1>
+                <p class="content-description">We build beautiful wedding websites fast. Share your personality and take
+                    care of your guests. We use
+                    templates of your choice and customize your website to your content.</p>
+                <a class="content-button" href="#">Get Started</a>
             </div>
         </div>
+        {% for item in site.data.webpage limit: 2 %}
+        <div class="item-container item-{{ item.item-id }}">
+            <div class="item style-{{ item.style-id }} no-gutter" style="background-image: url('/img/{{ item.image }}'); background-color: #{{ item.background-color }};"></div>
+            <div class="caption">
+                <a href="https://crux-wedding.github.io/wedding-template{{ item.url-id }}" target="_blank" class="caption-button">PREVIEW</a>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    <div class="bottom-section">
+        {% for item in site.data.webpage offset: 2 %}
+        <div class="item-container item-{{ item.item-id }}">
+            <div class="item style-{{ item.style-id }} no-gutter" style="background-color: #{{ item.background-color }}; background-image: url('/img/{{ item.image }}');"></div>
+            <div class="caption">
+                <a href="https://crux-wedding.github.io/wedding-template{{ item.url-id }}" target="_blank" class="caption-button">PREVIEW</a>
+            </div>
+        </div>
+        {% endfor %}
     </div>
 </div>
