@@ -7,9 +7,7 @@
   <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
   <meta name="description" content="{{ site.description }}">
   <meta name="author" content="">
-
   <title>Crux Wedding</title>
-
   <link rel="stylesheet" href="/css/home.css">
   <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Varela' rel='stylesheet' type='text/css'>
@@ -20,10 +18,43 @@
 
 {{ content }}
 
-
+<div id="myModal" class="modal fade" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title text-center">HOW IT WORKS</h4>
+      </div>
+      <div class="modal-body clearfix">
+        <div class="col-md-4">
+          <img src="/img/modal/web-design.png" class="content-image img-responsive center-block"/>
+          <span class="content-description">Choose a Theme</span>
+        </div>
+        <div class="col-md-4">
+          <img src="/img/modal/file.png" class="content-image img-responsive center-block"/>
+          <span class="content-description">Share your details and photos</span>
+        </div>
+        <div class="col-md-4">
+          <img src="/img/modal/hourglass.png" class="content-image img-responsive center-block"/>
+          <span class="content-description">After 48 hours your website will be done</span>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <h4 class="content-header">Get the latest updates</h4>
+        <div class="input-group">
+          <input type="email" class="form-control input-lg" placeholder="Enter your email">
+          <span class="input-group-btn">
+            <button class="btn btn-secondary input-lg" type="button">Go</button>
+          </span>
+        </div>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
 <script type="text/javascript" src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
 <script type="text/javascript" src="/js/bootstrap.min.js"></script>
+
 <script type="text/javascript">
   $(document).ready(function(){
     if($(window).innerWidth() > 768)
@@ -35,7 +66,14 @@
       var itemURL = $(this).find(".item").attr("data-url");
       window.open(itemURL,'_blank');
     });
+
+    $(window).load(function(){
+      $("#myModal").modal('show');
+    });
   });
+
+
+
 </script>
 
 </body>
